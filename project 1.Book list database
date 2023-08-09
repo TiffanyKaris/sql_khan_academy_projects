@@ -1,0 +1,9 @@
+What are your favorite books? You can make a database table to store them in! In this first step, create a table to store your list of books. It should have columns for id, name, and rating.
+
+CREATE TABLE bookstore(id INTEGER PRIMARY KEY,name TEXT, rating INTEGER);
+
+INSERT INTO bookstore VALUES(1,"ATOMIC HABIT",9);
+INSERT INTO bookstore VALUES(2,"THINK RICH",8);
+INSERT INTO bookstore VALUES(3, "SERIAL KILLER",7);
+SELECT * FROM bookstore;
+
